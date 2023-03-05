@@ -1,0 +1,19 @@
+.header{
+    background-color: rgb(196, 255, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    background-color: aqua;
+}
+
+.h2{
+    tex
+}
