@@ -1,34 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-    crossorigin="anonymous">
+    crossorigin="anonymous"> -->
+    <link href="style.css" rel="stylesheet">
     <title>It's Weather Time!</title>
 </head>
+
 <body>
     <div class="header">
         <h1>Weather Dashboard</h1>
     </div>
-    <div class="card" style="width: 18rem; ">
-        <div class="card-body" style="--bs-primary-border-subtle">
+    <div class="container">
+        <div class="left-container">
+            <h2>Search for City</h2>
+            <input type="text" placeholder="search for city">
+            <button>search</button>
+            <hr>
+            <ul>
+                <li>Atlanta</li>
+                <li>new york</li>
+                <li>orlando</li>
+                <li>chicago</li>
+            </ul>
+        </div>
+        <div class="right-container">
+            <div class="today">
+                <h2>Atlanta (9/13/22)</h2>
+                <p>Temp: 76.62'F</p>
+                <p>Wind: 8.43 MPH</p>
+                <p>Humidity: 44%</p>
+            </div>
+            <div class="next-five">
+                <h2>Five Day Forcast</h2>
+                <div class="items-container">
+                    <div>
+                        <h3>9/14/22</h3>
+                        <h4>icon</h4>
+                        <p>Temp: 76.62'F</p>
+                        <p>Wind: 8.43 MPH</p>
+                        <p>Humidity: 44%</p>
+                    </div>
+                    <div>
+                        <h3>9/14/22</h3>
+                        <h4>icon</h4>
+                        <p>Temp: 76.62'F</p>
+                        <p>Wind: 8.43 MPH</p>
+                        <p>Humidity: 44%</p>
+                    </div>
+                    <div>
+                        <h3>9/14/22</h3>
+                        <h4>icon</h4>
+                        <p>Temp: 76.62'F</p>
+                        <p>Wind: 8.43 MPH</p>
+                        <p>Humidity: 44%</p>
+                    </div>
+                    <div>
+                        <h3>9/14/22</h3>
+                        <h4>icon</h4>
+                        <p>Temp: 76.62'F</p>
+                        <p>Wind: 8.43 MPH</p>
+                        <p>Humidity: 44%</p>
+                    </div>
+                    <div>
+                        <h3>9/14/22</h3>
+                        <h4>icon</h4>
+                        <p>Temp: 76.62'F</p>
+                        <p>Wind: 8.43 MPH</p>
+                        <p>Humidity: 44%</p>
+                    </div>
+         
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="card" style="width: 18rem; ">
+        <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="card-link">Card link</a>
           <a href="#" class="card-link">Another link</a>
         </div>
-      </div>
-   
+      </div> -->
+
     <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
-    crossorigin="anonymous"></script>
-  </body>
+    crossorigin="anonymous"></script> -->
 </body>
+</body>
+
 </html>
